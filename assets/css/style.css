@@ -1,3 +1,7 @@
+:root {
+  --primary-color: #205caa;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -18,7 +22,7 @@ main {
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 60px;
-  background: #13293d;
+  background: var(--primary-color);
   color: #fff;
 }
 
@@ -32,7 +36,7 @@ main {
 
 .card header {
   padding: 20px;
-  background: #13293d;
+  background: var(--primary-color);
   color: #fff;
 }
 
